@@ -119,15 +119,27 @@
   
   .card-tag {
     float: right;
-    margin: 5px 0 0;
-    border: 1px solid #aaa;
-    padding: 5px 10px;
+    background-color: #f0c2fb;
+    border-radius: 100px;
+    box-shadow: rgba(154, 44, 187, 0.2) 0 -25px 18px -14px inset,rgba(187, 44, 185, 0.15) 0 1px 2px,rgba(156, 44, 187, 0.15) 0 2px 4px,rgba(187, 44, 175, 0.15) 0 4px 8px,rgba(154, 44, 187, 0.265) 0 8px 16px,rgba(154, 44, 187, 0.15) 0 16px 32px;
+    color: rgb(102, 51, 153);
     cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
   }
   
   .card-tag:hover {
-    background: #aaa;
-    color: black;
+    box-shadow: rgba(134, 44, 187, 0.326) 0 -25px 18px -14px inset,rgba(154, 44, 187, 0.25) 0 1px 2px,rgba(154, 44, 187, 0.25) 0 2px 4px,rgba(154, 99, 187, 0.25) 0 4px 8px,rgba(168, 99, 187, 0.25) 0 8px 16px,rgba(154, 44, 187, 0.269) 0 16px 32px;
+    transform: scale(1.05) rotate(-1deg);
   }
   
   .card-media {
